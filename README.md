@@ -1,2 +1,1 @@
-This repository has documented mysql database concepts.
-To test, ensure you have mysql installed.
+This repository has documented mysql database concepts. To test it, ensure you have mysql installed.
