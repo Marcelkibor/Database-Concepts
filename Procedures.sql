@@ -27,3 +27,12 @@ DELIMITER ;
 CALL AddEmployee('4','Marion','Omarion',3232);
 CALL EmployeeTotalSalary(@totalSalary);
 SELECT @totalSalary;
+
+-- procedure to deleteEmployee record
+DELIMITER $$
+CREATE PROCEDURE DeleteEmployee(IN eId decimal(10,0))
+begin
+	delete from Employees where Id=eID;
+end$$
+
+DELIMITER ;
